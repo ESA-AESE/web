@@ -207,14 +207,7 @@ function TransMod(){
         $("#nav-news").html(langModule.translate(lang, $("#nav-news").attr("data-token")));
         $("#nav-team").html(langModule.translate(lang, $("#nav-team").attr("data-token")));
         $("#nav-contact").html(langModule.translate(lang, $("#nav-contact").attr("data-token")));
-        
-        //Information items
 		
-		$("#title").html(langModule.translate(lang, $("#title").attr("data-token")));
-		$("#intro").html(langModule.translate(lang, $("#intro").attr("data-token")));
-		$("#first-item").html(langModule.translate(lang, $("#first-item").attr("data-token")));
-		$("#second-item").html(langModule.translate(lang, $("#second-item").attr("data-token")));
-		$("#third-item").html(langModule.translate(lang, $("#third-item").attr("data-token")));
 	}	
 	
 	InitStaticText("en");
