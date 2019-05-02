@@ -1,228 +1,48 @@
-/**
-* This file contains all of translations for both the english and french versions of the website. 
-*
-* For TransMod(): 
-* Simply add an item to the library array where the first pair of square brackets contains the language ("en" or "fr) and the second pair of *square brackets is the id of the text to be translated. 
-**/
-
-function TransMod(){
-	this.translate = function(lang, token) {
-		return library[lang][token];
-	}
-    
-    /**
-    *
-    *English library starts here
-    *
-    **/
-	
-	var library = new Array();
-	
-	library["en"] = new Array();
-    
-    //Navigation items
-    library["en"]["translatable.nav-about"] = "About";
-    library["en"]["translatable.nav-services"] = "Services";
-    library["en"]["translatable.nav-news"] = "News"
-    library["en"]["translatable.nav-team"] = "Team"
-    library["en"]["translatable.nav-contact"] = "Contact Us"
-    
-    /**Information items **/
-    
-    //About
-	library["en"]["translatable.about"] = "The Economics Students Association is the governing federated body for all 900+ undergraduate Economics students at the University of Ottawa. From academic representation to social events, we strive to meet the needs of our undergraduate students. We partake in important decisions concerning programs and courses, and represent the students’ best interests. We also work in collaboration with many other associations and faculties on campus to deliver the best student experience and events as possible.";
-    
-    //Services
-    library["en"]["translatable.services-desc"] = "Here are some of the things that the association does for you."
-    
-    library["en"]["translatable.services-academic-representation-header"] = "Academic Representation"
-	library["en"]["translatable.services-academic-representation"] = "We represent the students' interests to the department and faculty and aim to protect your rights as a student. If you have an issue with a professor or a course, you may contact the vice-president of academic affairs at vp.academic@ecouo.ca.";
-    
-    library["en"]["translatable.services-events-header"] = "Events"
-	library["en"]["translatable.events"] = "The ESA offers a mix of academic, social, and philanthropic events throughout the school year. From academic panels to holiday dinners, the ESA wants to provide an academic year full of well rounded events for all undergraduate economics students!";
-    
-    library["en"]["translatable.services-esa-traditions-header"] = "ESA Traditions"
-    library["en"]["translatable.esa-traditions"] = "101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionnaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association";
-	
-    //News
-    library["en"]["translatable.news-desc"] = "Updates from the association are posted here. Click on the post to read the update."
-    
-    //Team
-    library["en"]["translatable.team-desc"] = "Here are your representatives. Click on their image to read their biography."
-    
-    library["en"]["translatable.team-president"] = "President"
-    library["en"]["translatable.team-president-desc"] = "Text"
-    
-    library["en"]["translatable.team-vp-internal"] = "Vice President of Internal Affairs"
-    library["en"]["translatable.team-vp-internal-desc"] = "Text"
-    
-    library["en"]["translatable.team-vp-finance"] = "Vice President of Finance"
-    library["en"]["translatable.team-vp-finance-desc"] = "Text"
-    
-    library["en"]["translatable.team-vp-communications"] = "Vice President of Communications"
-    library["en"]["translatable.team-vp-finance-desc"] = "Text"
-    
-    library["en"]["translatable.team-vp-academic"] = "Vice President of Academic Affairs"
-    library["en"]["translatable.team-vp-academic-desc"] = "Text"
-    
-    library["en"]["translatable.team-vp-social"] = "Vice President of Social Affairs"
-    library["en"]["translatable.team-vp-social-desc"] = "Text"
-    
-    library["en"]["translatable.team-vp-bilingual"] = "Vice President of Bilingualism and Outreach"
-    library["en"]["translatable.team-vp-bilingual-desc"] = "Text"
-    
-    library["en"]["translatable.team-vp-philanthropy"] = "Vice President of Philanthropy"
-    library["en"]["translatable.team-vp-philanthropy-desc"] = "Text"
-    
-    library["en"]["translatable.team-dir-it"] = "Director of Information Technology"
-    library["en"]["translatable.team-dir-it-desc"] = "Text"
-    
-    library["en"]["translatable.team-dir-external"] = "Director of External Affairs"
-    library["en"]["translatable.team-dir-external-desc"] = "Text"
-    
-    library["en"]["translatable.team-dir-promo"] = "Director of Promotions"
-    library["en"]["translatable.team-dir-promo-desc"] = "Text"
-    
-    library["en"]["translatable.team-jvp-academic"] = "Junior Vice President of Academic Affairs"
-    library["en"]["translatable.team-jvp-academic-desc"] = "Text"
-    
-    library["en"]["translatable.team-jvp-social"] = "Junior Vice President of Social Affairs"
-    library["en"]["translatable.team-jvp-social-desc"] = "Text"
-    
-    library["en"]["translatable.team-jvp-philanthropy"] = "Junior Vice President of Philanthropy"
-    library["en"]["translatable.team-jvp-philanthropy-desc"] = "Text"
-    
-    library["en"]["translatable.team-jvp-bilingual"] = "Junior Vice President of Bilingualism and Outreach"
-    library["en"]["translatable.team-jvp-bilingual-desc"] = "Text"
-    
-    //Contact us
-    library["en"]["translatable.contact"] = "Have any questions? You can send an email to communications@ecouo.ca for general inquiries or an email to a specific executive member, or see us in person at FSS2040 during our office hours. <a href=office-hours.pdf> Find our office hours here. As well, be sure to follow us on our social media accounts! Links can be found at bottom of this page.Please note that there will not be office hours during exam season, during the summer, holidays, or university holidays. Office hours are subject to change.";
-    
-    //
-    
-    /**
-    *
-    *French library starts here
-    *
-    **/
-	
-    
-	library["fr"] = new Array();
-    
-    //Navigation items
-    library["fr"]["translatable.nav-about"] = "Autour";
-    library["fr"]["translatable.nav-services"] = "Services";
-    library["fr"]["translatable.nav-news"] = "Nouvelles"
-    library["fr"]["translatable.nav-team"] = "Équipe"
-    library["fr"]["translatable.nav-contact"] = "Contactez-nous"
-    
-	library["fr"]["translatable.about"] = "L’Association des Étudiant(e)s des Sciences Économiques est la fédération qui gouverne pour toutes les 900+ étudiant(e)s de premier cycle en Sciences Économiques à l’Université d’Ottawa. De la représentation académique aux événements sociaux, on s’efforce de répondre aux besoins de nos étudiants de premier cycle. On participe en décisions importantes qui concernent les programmes et les cours et nous représentons les meilleurs intérêts des étudiants. On travaille aussi en collaboration avec plusieurs associations et facultés sur campus pour offrir la meilleur expérience et événements possible.";
-	
-    //Services
-    library["fr"]["translatable.services-desc"] = "Here are some of the things that the association does for you."
-    
-    library["fr"]["translatable.services-academic-representation-header"] = "Représentation académique"
-	library["fr"]["translatable.services-academic-representation"] = "We represent the students' interests to the department and faculty and aim to protect your rights as a student. If you have an issue with a professor or a course, you may contact the vice-president of academic affairs at vp.academic@ecouo.ca.";
-    
-    library["fr"]["translatable.services-events-header"] = "Events"
-	library["fr"]["translatable.events"] = "The ESA offers a mix of academic, social, and philanthropic events throughout the school year. From academic panels to holiday dinners, the ESA wants to provide an academic year full of well rounded events for all undergraduate economics students!";
-    
-    library["fr"]["translatable.services-esa-traditions-header"] = "ESA Traditions"
-    library["fr"]["translatable.esa-traditions"] = "101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionnaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association";
-	
-    //News
-    library["fr"]["translatable.news-desc"] = "Updates from the association are posted here. Click on the post to read the update."
-    
-    //Team
-    library["fr"]["translatable.team-desc"] = "Here are your representatives. Click on their image to read their biography."
-    
-    library["fr"]["translatable.team-president"] = "President"
-    library["fr"]["translatable.team-president-desc"] = "Text"
-    
-    library["fr"]["translatable.team-vp-internal"] = "Vice President of Internal Affairs"
-    library["fr"]["translatable.team-vp-internal-desc"] = "Text"
-    
-    library["fr"]["translatable.team-vp-finance"] = "Vice President of Finance"
-    library["fr"]["translatable.team-vp-finance-desc"] = "Text"
-    
-    library["fr"]["translatable.team-vp-communications"] = "Vice President of Communications"
-    library["fr"]["translatable.team-vp-finance-desc"] = "Text"
-    
-    library["fr"]["translatable.team-vp-academic"] = "Vice President of Academic Affairs"
-    library["fr"]["translatable.team-vp-academic-desc"] = "Text"
-    
-    library["fr"]["translatable.team-vp-social"] = "Vice President of Social Affairs"
-    library["fr"]["translatable.team-vp-social-desc"] = "Text"
-    
-    library["fr"]["translatable.team-vp-bilingual"] = "Vice President of Bilingualism and Outreach"
-    library["fr"]["translatable.team-vp-bilingual-desc"] = "Text"
-    
-    library["fr"]["translatable.team-vp-philanthropy"] = "Vice President of Philanthropy"
-    library["fr"]["translatable.team-vp-philanthropy-desc"] = "Text"
-    
-    library["fr"]["translatable.team-dir-it"] = "Director of Information Technology"
-    library["fr"]["translatable.team-dir-it-desc"] = "Text"
-    
-    library["fr"]["translatable.team-dir-external"] = "Director of External Affairs"
-    library["fr"]["translatable.team-dir-external-desc"] = "Text"
-    
-    library["fr"]["translatable.team-dir-promo"] = "Director of Promotions"
-    library["fr"]["translatable.team-dir-promo-desc"] = "Text"
-    
-    library["fr"]["translatable.team-jvp-academic"] = "Junior Vice President of Academic Affairs"
-    library["fr"]["translatable.team-jvp-academic-desc"] = "Text"
-    
-    library["fr"]["translatable.team-jvp-social"] = "Junior Vice President of Social Affairs"
-    library["fr"]["translatable.team-jvp-social-desc"] = "Text"
-    
-    library["fr"]["translatable.team-jvp-philanthropy"] = "Junior Vice President of Philanthropy"
-    library["fr"]["translatable.team-jvp-philanthropy-desc"] = "Text"
-    
-    library["fr"]["translatable.team-jvp-bilingual"] = "Junior Vice President of Bilingualism and Outreach"
-    library["fr"]["translatable.team-jvp-bilingual-desc"] = "Text"
-    
-    //Contact us
-    library["fr"]["translatable.contact"] = "101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionnaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association";
-	
+// Translation database
+//Add entries to the dictionary with the id (key) on the left and its value on the right
+var translations = {
+  'en': {
+      //Navigation
+    'about': 'About',
+    'services': 'Services',
+    'news': 'News',
+    'team': 'Team',
+    'contact': 'Contact Us',
+      //Information
+    'aboutDesc': 'The Economics Students Association is the governing federated body for all 900+ undergraduate Economics students at the University of Ottawa. From academic representation to social events, we strive to meet the needs of our undergraduate students. We partake in important decisions concerning programs and courses, and represent the students’ best interests. We also work in collaboration with many other associations and faculties on campus to deliver the best student experience and events as possible.'
+  },
+  'fr': {
+      //Navigation
+    'about': 'Autour de nous',
+    'services': 'Services',
+    'news': 'Nouvelles',
+    'team': 'Equipe',
+    'contact': 'Contactez-nous',
+      //Information
+    'aboutDesc': 'L’Association des Étudiant(e)s des Sciences Économiques est la fédération qui gouverne pour toutes les 900+ étudiant(e)s de premier cycle en Sciences Économiques à l’Université d’Ottawa. De la représentation académique aux événements sociaux, on s’efforce de répondre aux besoins de nos étudiants de premier cycle. On participe en décisions importantes qui concernent les programmes et les cours et nous représentons les meilleurs intérêts des étudiants. On travaille aussi en collaboration avec plusieurs associations et facultés sur campus pour offrir la meilleur expérience et événements possible.'
+  }
 }
 
-/**
-* For InitStaticText(lang):
-*
-* After providing the translations above, be sure to include them in the function below by adding the line with the following form:
-*
-* $("item").html(langModule.translate(lang, $("item").attr("data-token")));
-*
-* You only need to change the content in the first two pairs of brackets.
-**/
-
-( function(){
-	
-	function InitStaticText(lang){
-		var langModule = new TransMod();
-        
-        //Navigation items
-        $("#nav-about").html(langModule.translate(lang, $("#nav-about").attr("data-token")));
-        $("#nav-services").html(langModule.translate(lang, $("#nav-services").attr("data-token")));
-        $("#nav-news").html(langModule.translate(lang, $("#nav-news").attr("data-token")));
-        $("#nav-team").html(langModule.translate(lang, $("#nav-team").attr("data-token")));
-        $("#nav-contact").html(langModule.translate(lang, $("#nav-contact").attr("data-token")));
-        
-        //Information items
-		
-		$("#title").html(langModule.translate(lang, $("#title").attr("data-token")));
-		$("#intro").html(langModule.translate(lang, $("#intro").attr("data-token")));
-		$("#first-item").html(langModule.translate(lang, $("#first-item").attr("data-token")));
-		$("#second-item").html(langModule.translate(lang, $("#second-item").attr("data-token")));
-		$("#third-item").html(langModule.translate(lang, $("#third-item").attr("data-token")));
-	}	
-	
-	InitStaticText("en");
-	$("#en").click(function(){ 
-		InitStaticText("en");
-	});
-	$("#fr").click(function(){ 
-		InitStaticText("fr");
-	});
-	
-})();
+// Listen to changes in the select menu
+$("#languageSelect").change(function() {
+  
+  // Get language code from the selected option
+  var langCode = $("#languageSelect option:selected").val();
+  
+  // Fetch the string from the translation database
+  // Create strings from the database by assigning a name to the string and then referencing the key 
+  var about = translations[langCode]['about'];
+  var services = translations[langCode]['services'];    
+  var news = translations[langCode]['news']; 
+  var team = translations[langCode]['team']; 
+  var contact = translations[langCode]['contact']; 
+  var aboutDesc = translations[langCode]['aboutDesc'];
+    
+  // Set HTML text to the translated string
+  $("#nav-about").text(about);
+  $("#nav-services").text(services);
+  $("#nav-news").text(news);
+  $("#nav-team").text(team);
+  $("#nav-contact").text(contact);
+  $("#aboutDesc").text(aboutDesc);
+}).change(); // This last bit, ".change()" is to invoke the change manually to ensure that the text is fetched from the translation database right away
