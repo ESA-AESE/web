@@ -13,7 +13,7 @@ var translations = {
   },
   'fr': {
       //Navigation
-    'about': 'Autour de nous',
+    'about': 'A propos',
     'services': 'Services',
     'news': 'Nouvelles',
     'team': 'Equipe',
