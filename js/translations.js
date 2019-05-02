@@ -1,3 +1,10 @@
+/**
+* This file contains all of translations for both the english and french versions of the website. 
+*
+* For TransMod(): 
+* Simply add an item to the library array where the first pair of square brackets contains the language ("en" or "fr) and the second pair of *square brackets is the id of the text to be translated. 
+**/
+
 function TransMod(){
 	this.translate = function(lang, token) {
 		return library[lang][token];
@@ -89,7 +96,7 @@ function TransMod(){
     library["en"]["translatable.team-jvp-bilingual-desc"] = "Text"
     
     //Contact us
-    library["en"]["translatable.contact"] = "101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionnaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association";
+    library["en"]["translatable.contact"] = "Have any questions? You can send an email to communications@ecouo.ca for general inquiries or an email to a specific executive member, or see us in person at FSS2040 during our office hours. <a href=office-hours.pdf> Find our office hours here. As well, be sure to follow us on our social media accounts! Links can be found at bottom of this page.Please note that there will not be office hours during exam season, during the summer, holidays, or university holidays. Office hours are subject to change.";
     
     //
     
@@ -178,6 +185,16 @@ function TransMod(){
     library["fr"]["translatable.contact"] = "101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionnaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association";
 	
 }
+
+/**
+* For InitStaticText(lang):
+*
+* After providing the translations above, be sure to include them in the function below by adding the line with the following form:
+*
+* $("item").html(langModule.translate(lang, $("item").attr("data-token")));
+*
+* You only need to change the content in the first two pairs of brackets.
+**/
 
 ( function(){
 	
