@@ -6,4 +6,15 @@ You only need to edit the HTML and CSS files as well as translations.js. Don't w
 
 ## Adding Translated Content 
 
-To add translated content to be avaiable in English and French. Add or modify the contents of the library in translation.js and reference them in the HTML file. 
+To add translated content to be avaiable in English and French. Add or modify the contents of the dictionary in translations.js and reference them in the HTML file. 
+
+## Website 
+
+All website content, aside from the Archives page, can be found in index.html
+
+## Executive Modals and Post Modals
+
+Modals are the windows that popup when clicking on the icons of an executive member or a news post. They can be found at the bottom of the HTML code of index.html. 
+
+## Editing CSS
+The CSS of the website can be found in agency.min.css. 
