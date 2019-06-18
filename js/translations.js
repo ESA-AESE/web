@@ -62,7 +62,7 @@ var translations = {
     
     'contactDesc2': 'De plus, assurez-vous de nous suivre sur nos comptes de médias sociaux ! Les liens peuvent être trouvés en bas de cette page.',
       
-    'contactDesc3': 'Veuillez noter qu'il n'y aura pas d\'heures de bureau pendant la saison des examens, l\'été, les vacances ou les vacances universitaires. Les heures de bureau sont sujettes à changement.'
+    'contactDesc3': 'Veuillez noter qu\'il n\'y aura pas d\'heures de bureau pendant la saison des examens, l\'été, les vacances ou les vacances universitaires. Les heures de bureau sont sujettes à changement.'
   }
 }
 
