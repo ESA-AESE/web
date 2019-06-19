@@ -1,16 +1,16 @@
 ## About
 
-To be able to make changes to this repository, you can clone it to your computer by typing "git clone https://github.com/ESA-AESE/web" into your terminal. From there, you can edit the files right away. 
+To be able to make changes to this repository, you can clone it to your computer by typing "git clone https://github.com/ESA-AESE/web" into your terminal. From there, the files will be copied to your computer and you can edit the files right away. 
 
-You only need to edit the HTML and CSS files as well as translations.js. Don't worry about the rest of the files. 
+You only need to edit the HTML files, agency.min.css as well as translations.js. You do not need to worry about the other files. 
 
 ## Adding Translated Content 
 
-To add translated content to be avaiable in English and French. Add or modify the contents of the dictionary in translations.js and reference them in the HTML file. 
+Translates are in translations.js. To create translations, add the translations into the english and french dictionaries of the file, create variables for them and then set the HTML to the translated strings. 
 
 ## Website 
 
-All website content, aside from the Archives page, can be found in index.html.
+The main website content can be found in index.html. The archive front page can be found in archives.html and their respective pages can be found in the archives folder. Posts can be found in the posts folder.
 
 ## Executive Modals and Post Modals
 
