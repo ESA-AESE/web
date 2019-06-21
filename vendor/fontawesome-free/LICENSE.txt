@@ -20,11 +20,11 @@ non-icon files.
 # Attribution
 Attribution is required by MIT, SIL OFL, and CC BY licenses. Downloaded Font
 Awesome Free files already contain embedded comments with sufficient
-attribution, so you shouldn't need to do anything additional when using these
+attribution, so you shouldn"t need to do anything additional when using these
 files normally.
 
-We've kept attribution comments terse, so we ask that you do not actively work
-to remove them from files, especially code. They're a great way for folks to
+We"ve kept attribution comments terse, so we ask that you do not actively work
+to remove them from files, especially code. They"re a great way for folks to
 learn about Font Awesome.
 
 # Brand Icons

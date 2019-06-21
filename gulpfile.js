@@ -1,13 +1,13 @@
 // Load plugins
-const autoprefixer = require("gulp-autoprefixer");
-const browsersync = require("browser-sync").create();
-const cleanCSS = require("gulp-clean-css");
-const gulp = require("gulp");
-const header = require("gulp-header");
-const plumber = require("gulp-plumber");
-const rename = require("gulp-rename");
-const sass = require("gulp-sass");
-const uglify = require("gulp-uglify");
+const autoprefixer = require('gulp-autoprefixer');
+const browsersync = require('browser-sync').create();
+const cleanCSS = require('gulp-clean-css');
+const gulp = require('gulp');
+const header = require('gulp-header');
+const plumber = require('gulp-plumber');
+const rename = require('gulp-rename');
+const sass = require('gulp-sass');
+const uglify = require('gulp-uglify');
 const pkg = require('./package.json');
 
 // Set the banner content
@@ -56,12 +56,12 @@ gulp.task('vendor', function(cb) {
 // CSS task
 function css() {
   return gulp
-    .src("./scss/*.scss")
+    .src('./scss/*.scss')
     .pipe(plumber())
     .pipe(sass({
-      outputStyle: "expanded"
+      outputStyle: 'expanded'
     }))
-    .on("error", sass.logError)
+    .on('error', sass.logError)
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
       cascade: false
@@ -69,12 +69,12 @@ function css() {
     .pipe(header(banner, {
       pkg: pkg
     }))
-    .pipe(gulp.dest("./css"))
+    .pipe(gulp.dest('./css'))
     .pipe(rename({
-      suffix: ".min"
+      suffix: '.min'
     }))
     .pipe(cleanCSS())
-    .pipe(gulp.dest("./css"))
+    .pipe(gulp.dest('./css'))
     .pipe(browsersync.stream());
 }
 
@@ -99,14 +99,14 @@ function js() {
 }
 
 // Tasks
-gulp.task("css", css);
-gulp.task("js", js);
+gulp.task('css', css);
+gulp.task('js', js);
 
 // BrowserSync
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./"
+      baseDir: './'
     }
   });
   done();
@@ -120,12 +120,12 @@ function browserSyncReload(done) {
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./scss/**/*", css);
-  gulp.watch(["./js/**/*.js", "!./js/*.min.js"], js);
-  gulp.watch("./**/*.html", browserSyncReload);
+  gulp.watch('./scss/**/*', css);
+  gulp.watch(['./js/**/*.js', '!./js/*.min.js'], js);
+  gulp.watch('./**/*.html', browserSyncReload);
 }
 
-gulp.task("default", gulp.parallel('vendor', css, js));
+gulp.task('default', gulp.parallel('vendor', css, js));
 
 // dev task
-gulp.task("dev", gulp.parallel(watchFiles, browserSync));
+gulp.task('dev', gulp.parallel(watchFiles, browserSync));

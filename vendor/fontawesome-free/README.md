@@ -1,6 +1,6 @@
 # @fortawesome/fontawesome-free - The Official Font Awesome 5 NPM package
 
-> "I came here to chew bubblegum and install Font Awesome 5 - and I'm all out of bubblegum"
+> "I came here to chew bubblegum and install Font Awesome 5 - and I"m all out of bubblegum"
 
 [![npm](https://img.shields.io/npm/v/@fortawesome/fontawesome-free.svg?style=flat-square)](https://www.npmjs.com/package/@fortawesome/fontawesome-free)
 
@@ -16,7 +16,7 @@ Or
 $ yarn add @fortawesome/fontawesome-free
 ```
 
-## What's included?
+## What"s included?
 
 **This package includes all the same files available through our Free and Pro CDN.**
 

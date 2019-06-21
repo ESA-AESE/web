@@ -1,6 +1,6 @@
 ## About
 
-To be able to make changes to this repository, you can clone it to your computer by typing "git clone https://github.com/ESA-AESE/web" into your terminal. From there, the files will be copied to your computer and you can edit the files right away. 
+To be able to make changes to this repository, you can clone it to your computer by typing 'git clone https://github.com/ESA-AESE/web' into your terminal. From there, the files will be copied to your computer and you can edit the files right away. 
 
 You only need to edit the HTML files, agency.min.css as well as translations.js. You do not need to worry about the other files. 
 
