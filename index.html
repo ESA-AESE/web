@@ -52,16 +52,16 @@
           <li class='nav-item'>
             <a class='nav-link js-scroll-trigger' href='#contact' id = 'nav-contact'>Contact Us</a>
             </li>
-        <li class='nav-item'>
-
-  <select id='languageSelect'>
-  <option value='en' selected='selected'>English</option>
-  <option value='fr'>French</option>
-</select>
+           
             </li>
+            <select id='languageSelect'>
+                <option value='en' selected='selected'>English</option>
+                <option value='fr'>French</option>
+            </select>
         </ul>
       </div>
     </div>
+    
   </nav>
 
       <!-- About -->
@@ -98,7 +98,7 @@
             <i class='fas fa-balance-scale fa-stack-1x fa-inverse'></i>
           </span>
           <h4 class='service-heading' id = 'academicRep'>Academic Representation</h4>
-          <p class='text-muted'>We represent the students' interests to the department and faculty and aim to protect your rights as a student. If you have an issue with a professor or a course, you may contact the vice-president of academic affairs at vp.academic@ecouo.ca.</p>
+          <p class='text-muted' id = "academicRepDesc">We represent the students' interests to the department and faculty and aim to protect your rights as a student. If you have an issue with a professor or a course, you may contact the vice-president of academic affairs at vp.academic@ecouo.ca.</p>
         </div>
         <div class='col-md-4'>
           <span class='fa-stack fa-4x'>
@@ -125,7 +125,7 @@
     <div class='container'>
       <div class='row'>
         <div class='col-lg-12 text-center'>
-          <h2 class='section-heading text-uppercase' id = 'news'>News</h2>
+          <h2 class='section-heading text-uppercase' id = 'nav-news'>News</h2>
           <h3 class='section-subheading text-muted' id = 'newsDesc'>Updates from the association are posted here. Click on the post to read the update.</h3>
         </div>
       </div>
@@ -137,24 +137,17 @@
         </ol>
         <div class='carousel-inner'>
           <div class='carousel-item active'>
-            <a href='news/SamplePost.html'><img class='d-block w-100' src='img/news-img/01-thumbnail.jpg' alt='First slide'></a>
+            <a href='news/SamplePost.html'><img class='d-block w-100' src='img/news-img/byelections.png' alt='First slide'></a>
             <div class='carousel-caption d-none d-md-block'>
               <h5>News from the ESA</h5>
-              <p>Click here to learn more</p>
+              <p>An exciting announcement from your association!</p>
             </div>
           </div>
           <div class='carousel-item'>
-            <a href='news/SamplePost.html'><img class='d-block w-100' src='img/news-img/02-thumbnail.jpg' alt='First slide'></a>
+            <a href='news/SamplePost.html'><img class='d-block w-100' src='img/news-img/econ-week.jpg' alt='First slide'></a>
             <div class='carousel-caption d-none d-md-block'>
               <h5>Another event</h5>
-              <p>Click to learn even more</p>
-            </div>
-          </div>
-          <div class='carousel-item'>
-            <a href='news/SamplePost.html'><img class='d-block w-100' src='img/news-img/03-thumbnail.jpg' alt='First slide'></a>
-            <div class='carousel-caption d-none d-md-block'>
-              <h5>A third event</h5>
-              <p>See you soon!</p>
+              <p>Thanks for seeing this demo and for visiting this website. We will see you soon!</p>
             </div>
           </div>
 
@@ -178,9 +171,9 @@
     <div class='container'>
       <div class='row'>
         <div class='col-lg-12 text-center'>
-          <h2 class='section-heading text-uppercase'>The Executive Team</h2>
-          <h3 class='section-subheading text-muted'>Here are your representatives. Click on their image to read their biography.</h3>
-            <h2 class = 'vp'><center>President and Vice-Presidents</center></h2>
+          <h2 class='section-heading text-uppercase' id = "team">The Executive Team</h2>
+          <h3 class='section-subheading text-muted' id = "teamDesc">Here are your representatives. Click on their image to read their biography.</h3>
+            <h2 id = 'presAndVPs'><center>President and Vice-Presidents</center></h2>
         </div>
       </div>
         
@@ -190,7 +183,7 @@
         <div class='col-sm-4'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''>
+                  <img class='mx-auto rounded-circle' src='img/team/president.jpg' alt=''>
               </center>
                 <center>
             <h4>Michael DiLosa</h4>
@@ -211,7 +204,7 @@
         <div class='col-sm-4'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''>
+                  <img class='mx-auto rounded-circle' src='img/team/vpinternal.jpg' alt=''>
               </center>
                 <center>
             <h4>Elliot Hernandez</h4><p class='text-muted'>Vice-President of Internal Affairs<br>vp.internal@ecouo.ca</p>
@@ -230,7 +223,7 @@
             <div class='team-member'>
                 <center>
            <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''>
+                  <img class='mx-auto rounded-circle' src='img/team/vpfinance.JPG' alt=''>
            </center>
             <h4>Liam O'Brien</h4>
                 <p class='text-muted'>Vice-President of Finance<br>vp.finance@ecouo.ca</p>
@@ -253,7 +246,7 @@
         <div class='col-sm-4'>
             <div class='team-member'>
               <center>
-                <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''>
+                <img class='mx-auto rounded-circle' src='img/team/anon.jpg' alt=''>
             </center>
                 <center>
             <h4>Abigail Marsh</h4>
@@ -272,7 +265,7 @@
         <div class='col-sm-4'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/vpsocial.JPG' alt=''></center>
                 <center>
             <h4>Corinne Lament</h4>
                 <p class='text-muted'>Vice-President of Social Affairs<br>vp.social@ecouo.ca</p>
@@ -290,7 +283,7 @@
             <!--bilingual-->
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/anon.jpg' alt=''></center>
                 <center>
             <h4>Mona Makinejad</h4>
                 <p class='text-muted'>Vice-President of Bilingualism and Outreach<br>vp.bilingual@ecouo.ca</p>
@@ -311,7 +304,7 @@
         <div class='col-sm-6'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/anon.jpg' alt=''></center>
                 <center>
             <h4>Ty Brunet</h4>
                 <p class='text-muted'>Vice-President of Philanthropy<br>vp.philanthropic@ecouo.ca</p>
@@ -331,7 +324,7 @@
         <div class='col-sm-5'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/vpcommunications.jpg' alt=''></center>
                 <center>
             <h4>Dania El-Cheik</h4>
                 <p class='text-muted'>Vice-President of Communications<br>vp.communication@ecouo.ca</p>
@@ -347,13 +340,13 @@
           </div>
       </div>
         
-        <h2 class = 'director'><center>Directors</center></h2>
+      <center><h2 class = 'director' id = "directors">Directors</h2></center>
         <div class='row'>
           <!--external-->
         <div class='col-sm-4'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/direxternal.jpg' alt=''></center>
                 <center>
             <h4>Lahn Robbins</h4>
                 <p class='text-muted'>Director of External Affairs<br>external@ecouo.ca</p>
@@ -371,7 +364,7 @@
         <div class='col-sm-4'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/anon.jpg' alt=''></center>
                 <center>
             <h4>Ryan Loi</h4>
                 <p class='text-muted'>Director of Information Technology<br>it@ecouo.ca</p>
@@ -389,7 +382,7 @@
             <!--promo-->
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/dirpromo.jpg' alt=''></center>
                 <center>
             <h4>Na Yeon Kwon</h4>
                 <p class='text-muted'>Director of Promotions<br>promo@ecouo.ca</p>
@@ -405,13 +398,13 @@
           </div>
       </div>
         
-        <h2 class = 'director'><center>Junior Vice-Presidents</center></h2>
+      <center><h2 class = 'director' id = "jvps">Junior Vice-Presidents</h2></center>
         <div class='row'>
           <!--Academic-->
         <div class='col-sm-6'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/anon.jpg' alt=''></center>
                 <center>
             <h4>Vacant</h4>
                 <p class='text-muted'>Junior Vice-President of Academic Affairs</p>
@@ -429,7 +422,7 @@
         <div class='col-sm-5'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/anon.jpg' alt=''></center>
                 <center>
             <h4>Vacant</h4>
                 <p class='text-muted'>Junior Vice-President of Social Affairs</p>
@@ -450,7 +443,7 @@
         <div class='col-sm-6'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/anon.jpg' alt=''></center>
                 <center>
             <h4>Vacant</h4>
                 <p class='text-muted'>Junior Vice-President of Bilingualism and Outreach</p>
@@ -468,7 +461,7 @@
         <div class='col-sm-5'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''>></center>
+                  <img class='mx-auto rounded-circle' src='img/team/anon.jpg' alt=''>></center>
                 <center>
             <h4>Vacant</h4>
                 <p class='text-muted'>Junior Vice-President of Philanthropy</p>
@@ -493,7 +486,7 @@
         <div class='col-sm-12'>
             <div class='team-member'>
                 <center>
-                  <img class='mx-auto rounded-circle' src='img/team/1.jpg' alt=''></center>
+                  <img class='mx-auto rounded-circle' src='img/team/101weekcoordinator.jpg' alt=''></center>
                 <center>
             <h4>Yasmin Rezaaifar</h4>
                 <p class='text-muted'>101 Week Coordinator</p>
@@ -501,10 +494,12 @@
                   About Me
                 </button>
               </p>
+              <div class='col-sm-3'>
               <div class='collapse' id='weekCoordinatorBioCollapse'>
                 <div class='card card-body'>
                   <p id = 'weekCoordinatorBio'>Hi! My name is Yasmin and I am m the ESA's 101 Week Coordinator. This summer, I will be working with our VP Social to plan 101 Week for the incoming first year students.This will be my first time working with ESA and I am so excited and honoured to be planning this amazing week. The first week of your very first year at university makes a lasting impression, so with the help of ESA's hardworking exec team, I hope to make this 101 Week an extremely fun and welcoming experience.</p>
                 </div></center>
+          </div>
           </div>
           </div>
             
@@ -517,7 +512,7 @@
       <div class='row'>
         <div class='col-lg-12 text-center'>
           <h2 class='section-heading text-uppercase'>Contact Us</h2>
-          <h3 class='section-subheading text-muted'><p>Have any questions? You can send an email to communications@ecouo.ca for general inquiries or an email to a specific executive member, or see us in person at FSS2040 during our office hours. <a href='office-hours.pdf'>Find our office hours here.</a></p>
+          <h3 class='section-subheading text-muted' id = "contactDesc"><p>Have any questions? You can send an email to communications@ecouo.ca for general inquiries or an email to a specific executive member, or see us in person at FSS2040 during our office hours. <a href='office-hours.pdf'>Find our office hours here.</a></p>
               
               <p>As well, be sure to follow us on our social media accounts! Links can be found at bottom of this page.</p>
               
