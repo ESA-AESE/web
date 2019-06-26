@@ -161,7 +161,7 @@ var translations = {
 
     "dirExternal": "Directrice des affairs externes",
 
-    "dirPromo": "Directrice de promotion",
+    "dirPromo": "Directrice de promotions",
 
     "jvpSocial": "Vice-président junior des affaires sociales",
 
