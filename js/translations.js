@@ -20,7 +20,7 @@ var translations = {
     "eventsDesc": "The ESA offers a mix of academic, social, and philanthropic events throughout the university year. From academic panels to holiday dinners, the ESA wants to provide an academic year full of well rounded events for all undergraduate economics students.",
 
     "esaTraditions": "ESA Traditions",
-    "esaTraditionsDesc": "101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionnaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association.",
+    "esaTraditionsDesc": "101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association.",
     
     "newsDesc": "Updates from the association are posted here. Click on the post to read the update.",
     
@@ -62,7 +62,7 @@ var translations = {
 
     "dirExternal": "Director of External Affairs",
 
-    "dirPromo": "Director of External Affairs",
+    "dirPromo": "Director of Promotions",
 
     "jvpSocial": "Junior Vice-President of Social Affairs",
 
@@ -100,34 +100,34 @@ var translations = {
   },
   "fr": {
       //Navigation
-    "about": "A propos",
+    "about": "à propos",
     "services": "Services",
     "news": "Nouvelles",
-    "team": "Equipe",
+    "team": "équipe",
     "contact": "Contactez-nous",
     
       //Information
-    "aboutDesc": "L’Association des Étudiant(e)s des Sciences Économiques est la fédération qui gouverne pour toutes les 900+ étudiant(e)s de premier cycle en Sciences Économiques à l’Université d’Ottawa. De la représentation académique aux événements sociaux, on s’efforce de répondre aux besoins de nos étudiants de premier cycle. On participe en décisions importantes qui concernent les programmes et les cours et nous représentons les meilleurs intérêts des étudiants. On travaille aussi en collaboration avec plusieurs associations et facultés sur campus pour offrir la meilleur expérience et événements possible.",
+    "aboutDesc": "L’Association des Étudiant(e)s des Sciences Économiques est la fédération qui gouverne pour toutes les 900+ étudiant(e)s de premier cycle en Sciences Économiques à l’Université d’Ottawa. De la représentation académique aux événements sociaux, on s’efforce de répondre aux besoins de nos étudiants de premier cycle. On participe en décisions importantes qui concernent les programmes et les cours et nous représentons les meilleurs intérêts des étudiants. On travaille aussi en collaboration avec plusieurs associations et facultés sur campus pour offrir le meilleur expérience et événements possible.",
       
-    "servicesDesc": "Voici quelques activites que l'association fait pour vous",
+    "servicesDesc": "Voici quelques activités que l'association fait pour vous",
     
     "academicRep": "Représentation académique",
 
-    "academicRepDesc": "Nous représentons les intérêts des étudiantes auprès du département et de la faculté, et nous visons à protéger vos droits en tant qu\"étudiante. Si vous avez un problème avec un professeur ou un cours, vous pouvez contacter la vice-présidente aux affaires académiques à vp.academic@ecouo.ca",
+    "academicRepDesc": "Nous représentons les intérêts des étudiants auprès du département et de la faculté et nous visons à protéger vos droits en tant qu'étudiante. Si vous avez un problème avec un professeur ou un cours, vous pouvez contacter la vice-présidente aux affaires académiques à vp.academic@ecouo.ca",
     
     "events": "Événements",
-    "eventsDesc": "L'AÉSÉ propose un mélange d'événements académiques, sociaux et philanthropiques tout au long de l'année universitaire. Des panels académiques aux dîners de fête, l\"AÉSÉ souhaite organiser une année académique riche en événements bien organisés pour tous les étudiants en économie de premier cycle !",
+    "eventsDesc": "L'AÉSÉ propose un mélange d'événements académiques, sociaux et philanthropiques tout au long de l'année universitaire. Des panels académiques aux dîners de fête, l'AÉSÉ souhaite organiser une année académique riche en événements bien organisés pour tous les étudiants en économie de premier cycle !",
     
     "esaTraditions": "Traditions de l’AÉSÉ",
-    "esaTraditionsDesc": "La Semaine 101, la Semaine Écono et notre voyage annuel à New York font partie des grandes traditions de l\"AÉSÉ. De plus, notre travail précédent avec Shinerama et Relais pour la vie est et sera important pour notre association.",
+    "esaTraditionsDesc": "La Semaine 101, la Semaine Écono et notre voyage annuel à New York font partie de grandes traditions de l'AÉSÉ. De plus, notre travail précédent avec Shinerama et Relais pour la vie est et sera important pour notre association.",
     
     "newsDesc": "Les mises à jour de l'association sont affichées ici. Cliquez sur le post pour lire la mise à jour.",
     
-    "execTeam": "L'equipe executif",
+    "execTeam": "L'équipe exécutif",
 
     "teamDesc": "Voici vos représentants. Cliquez sur leur image pour lire à leur sujet.",
       
-    "contactDesc": "Avez-vous des questions? Vous pouvez envoyer un courrier électronique à communications@ecouo.ca pour des demandes d'ordre général ou un courrier électronique à un membre de la direction spécifique, ou nous voir en personne à FSS2040 pendant les heures de bureau. De plus, assurez-vous de nous suivre sur nos comptes de médias sociaux ! Les liens peuvent être trouvés en bas de cette page. Veuillez noter qu'il n'y aura pas d'heures de bureau pendant la saison des examens, l'été, les vacances ou les vacances universitaires. Les heures de bureau sont sujettes à changement.",
+    "contactDesc": "Avez-vous des questions? Vous pouvez envoyer un courriel à communications@ecouo.ca pour des idées ou questions d'ordre général ou un courrier électronique à un membre de la direction spécifique, ou venez-nous voir en personne à FSS2040 pendant les heures de bureau. De plus, assurez-vous de nous suivre sur nos comptes de médias sociaux ! Les liens peuvent être trouvés en bas de cette page. Veuillez noter qu'il n'y aura pas d'heures de bureau pendant la saison des examens, pendant l'été, les vacances ou les vacances universitaires. Les heures de bureau sont sujettes à changement.",
     
     "officeHours": "Heures de bureau",
 
@@ -135,11 +135,11 @@ var translations = {
 
     "presAndVPs": "Président et vice-présidents",
 
-    "jvps": "vice-présidents juniors",
+    "jvps": "Vice-présidents juniors",
 
     "directors": "Directeurs",
 
-    "summerExec": "Executives d'ete",
+    "summerExec": "Exécutives d'été",
 
     "president": "Président",
 
@@ -147,13 +147,13 @@ var translations = {
 
     "vpFinance": "Vice-président aux finances",
 
-    "vpAcademic": "Vice-président aux affaires académiques",
+    "vpAcademic": "Vice-présidente aux affaires académiques",
 
-    "vpSocial": "Vice-président des affaires sociales",
+    "vpSocial": "Vice-présidente des affaires sociales",
 
-    "vpCommunications": "Vice-président des communications",
+    "vpCommunications": "Vice-présidente des communications",
 
-    "vpBilingual": "Vice-président au bilinguisme et à l'intégration",
+    "vpBilingual": "Vice-présidente au bilinguisme et à l'intégration",
 
     "vpPhilanthropy": "Vice-président aux affaires philanthropiques",
 
@@ -171,7 +171,7 @@ var translations = {
 
     "jvpPhilanthropy": "Vice-président junior aux affaires philanthropiques",
 
-    "weekCoordinator": "??? de semaine 101",
+    "weekCoordinator": "coordinatrice de la semaine 101",
 
     //Biographies
     
