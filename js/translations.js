@@ -96,7 +96,38 @@ var translations = {
 
     "dirPromoBio": "Hi, my name is Nicole, and I am your Director of Promotions! I am in charge of all things promotional, and helping out with our website. I am in my fourth year of Joint Honours Economics and Political Science, and if you need help with anything school related, I am always down to chat and help with homework! Some more about me, I was the Golden Gloves featherweight boxing champion of lower mainland BC (a long time ago), and I’m terrified of fish!",
 
-    "weekCoordinatorBio": "Hi! My name is Yasmin and I am m the ESA's 101 Week Coordinator. This summer, I will be working with our VP Social to plan 101 Week for the incoming first year students.This will be my first time working with ESA and I am so excited and honoured to be planning this amazing week. The first week of your very first year at university makes a lasting impression, so with the help of ESA\"s hardworking exec team, I hope to make this 101 Week an extremely fun and welcoming experience."
+    "weekCoordinatorBio": "Hi! My name is Yasmin and I am m the ESA's 101 Week Coordinator. This summer, I will be working with our VP Social to plan 101 Week for the incoming first year students.This will be my first time working with ESA and I am so excited and honoured to be planning this amazing week. The first week of your very first year at university makes a lasting impression, so with the help of ESA\"s hardworking exec team, I hope to make this 101 Week an extremely fun and welcoming experience.",
+
+    //101Week
+
+    "weekMessage": "Looking to join 101 Week? Click the link below!",
+
+    "weekTitle": "101 Week",
+
+    "weekSubtitle": "Welcome, 101er!",
+
+    "weekIntro": "This is where you can reserve your spot for 101 Week, the ESA’s orientation week for our new students.",
+
+    "week1": "101 Week is a non-profit event. In order to participate in 101 Week 2019, you must purchase a 101 Week kit. Each kit costs around $100 and includes admission to all the 101 Week events, from concerts to a beach day to a scavenger hunt to club nights. (Note: Since we operate as a non-profit, we do need to make up the difference we pay in PayPal fees by charging $103.30** for online kits. We sell out every year, so we do recommend you register and buy online to guarantee yourself a spot).",
+
+    "week2": "A complete schedule of the week’s events will be available in the coming weeks (stay tuned!) As always, if you have any questions about 101 Week, economics programs, or simply university life, please email us or message us on Facebook - we’d love to hear from you!",
+
+    "week3": "We know you're very excited but also kind of nervous about university, so we’re preparing a stellar week to ease you in to the adventures of life as an Economics student. We've got plenty of events up our sleeve to help you meet friends, discover the city, and prepare you for the academic year ahead.",
+
+    "weekSteps": "101 Week registration is a two-step process. Follow these two steps to purchase your kit online.",
+
+    "weekStep1": "Step One: Click the button below and fill out the form",
+
+    "register": "Register here",
+
+    "weekStep2": "Step Two: Pay through Paypal below",
+
+    "weekWarning": "PLEASE NOTE THAT ALL SALES ARE FINAL AND ARE THEREFORE, NON-REFUNDABLE!",
+
+    "week4": "If you have paid for your kit online, you will be able to pick it up during the day on Saturday, August 31st or Sunday, September 1st at the Tabaret (TBT) lawn on campus. If you have not registered online for your kit, you can still come to campus on August 31st or the 1st of September to register and buy a kit if we have any left!",
+
+    "week5": "Have a fantastic rest of the summer, and see you soon!",
+
   },
   "fr": {
       //Navigation
@@ -195,7 +226,38 @@ var translations = {
     
     "dirPromoBio": "Salut, je m’appelle Nicole et je suis la Directrice de la Promotion pour l’AÉSÉ ! Je suis responsable de toute chose promotionnelle et j’aide à gérer le site-web. Je suis dans ma quatrième année d’un spécialisé bidisciplinaire en science économique et science politique. Si vous avez besoin d’aide avec quoique ce soit en tant qu’école, je suis toujours prêt à aider avec les devoirs et parler ! D’autres informations à mon sujet est que j’étais le champion du Golden Gloves boxe poids plume des basses-terres de Colombie-Britannique (il y a longtemps) et terrifié des poissons !",
 
-    "weekCoordinatorBio": "Bonjour! Je m’appelle Yasmin et je suis la Coordinatrice de la Semaine 101 pour l’AÉSÉ. Cet été je collabore avec notre Vice-Présidente des Affaires Sociales pour planifier la Semaine 101 pour les étudiants en première année entrants. C’est la première fois que je travaille avec l’AÉSÉ et je suis très enthousiaste et fier d’organiser cette semaine magnifique. La première semaine de la première année d’université laisse une impression inoubliable, alors avec l’aide des membres exécutifs de l’AÉSÉ, j'espère créer une expérience amusante et accueillante pour la Semaine 101."
+    "weekCoordinatorBio": "Bonjour! Je m’appelle Yasmin et je suis la Coordinatrice de la Semaine 101 pour l’AÉSÉ. Cet été je collabore avec notre Vice-Présidente des Affaires Sociales pour planifier la Semaine 101 pour les étudiants en première année entrants. C’est la première fois que je travaille avec l’AÉSÉ et je suis très enthousiaste et fier d’organiser cette semaine magnifique. La première semaine de la première année d’université laisse une impression inoubliable, alors avec l’aide des membres exécutifs de l’AÉSÉ, j'espère créer une expérience amusante et accueillante pour la Semaine 101.",
+
+    //101 Week
+
+    "weekMessage": "Voulez-vous joigner la semaine 101? Cliquez le lien au dessus!",
+
+    "weekTitle": "Semaine 101",
+
+    "weekSubtitle": "Bienvenue, future étudiant.e!",
+
+    "weekIntro": "C’est ici que vous pouvez réserver votre place pour la Semaine 101, la semaine d’orientation pour les étudiant.e.s de premier cycle de l’AÉSÉ.",
+
+    "week1": "La Semaine 101 est une semaine à but non-lucratif. Pour participer à la Semaine 101 de 2019, vous devez acheter une trousse. Chaque trousse coût environ 100$ et inclut l’admission à tous les événements de la Semaine 101, de concerts à journée à la plage à une course de trésor et de soirées dansantes. (Veuillez noter: pour équilibrer les frais de Square, le coût pour les trousses en ligne est 103.30$**. Nous vendons toutes les trousses chaque année. Nous conseillons de s'enregistrer et acheter en ligne pour vous garantir une trousse).",
+
+    "week2": "Un horaire complète des événements de la semaine va être disponible dans les prochaines semaines (restez à l’écoute!) Comme toujours, si vous avez des questions à propos la Semaine 101, les cours ou programmes d’économie, ou la vie universitaire, envoyez-nous un courriel ou un message Facebook - nous attendons vos questions!",
+
+    "week3": "Nous savons que vous êtes à la fois enthousiaste et nerveuse pour l’université, donc la semaine exceptionnelle que nous avons préparé va vous aider avec la transition à un.e étudiant.e d’économie. Nous avons pleins d’événements pour vous aider à rencontrer des amis, explorer la ville et vous préparer pour l’année scolaire qui vient.",
+
+    "weekSteps": "Il y a deux étapes pour l’enregistrement à la Semaine 101. Suivez-les pour acheter la trousse en ligne.",
+
+    "weekStep1": "1. Cliquez ici et remplir le formulaire.",
+
+    "register": "Enregistrer ici",
+
+    "weekStep2": "2. Payez avec Paypal ici",
+
+    "weekWarning": "VEUILLEZ NOTER QUE TOUTES LES VENTES DE TROUSSE SONT FINALES ET NE PEUVENT PAS ÊTRE REMBOURSÉ!",
+
+    "week4": "Si vous avez payé pour votre trousse en ligne, vous pouvez les récupérer le samedi 31 août ou le dimanche 1 septembre sur la pelouse de Tabaret (TBT). Si vous n’avez pas enregistré en ligne, vous pouvez venir sur campus les deux journées ci-dessus et acheter une trousse si nous en avons qui reste.",
+
+    "week5": "Nous espérons qui vous aient un bon été et à bientôt. "
+
   }
 }
 
@@ -267,6 +329,24 @@ $("#languageSelect").change(function() {
     var jvpBilingualBio = translations[langCode]["jvpBilingualBio"];
     var jvpPhilanthropyBio = translations[langCode]["jvpPhilanthropyBio"];
     var weekCoordinatorBio = translations[langCode]["weekCoordinatorBio"];
+
+    //101 Week
+    var weekMessage = translations[langCode]["weekMessage"]
+    var weekTitle = translations[langCode]["weekTitle"];
+    var weekSubtitle = translations[langCode]["weekSubtitle"];
+    var weekIntro = translations[langCode]["weekIntro"];
+    var week1 = translations[langCode]["week1"];
+    var week2 = translations[langCode]["week2"];
+    var week3 = translations[langCode]["week3"];
+    var weekSteps = translations[langCode]["weekSteps"];
+    var weekStep1 = translations[langCode]["weekStep1"];
+    var register = translations[langCode]["register"];
+    var weekStep2 = translations[langCode]["weekStep2"];
+    var weekWarning = translations[langCode]["weekWarning"];
+    var week4 = translations[langCode]["week4"];
+    var week5 = translations[langCode]["week5"];
+
+    //var weekWarningRed = weekWarning.fontcolor("red")
     
   // Set HTML text to the translated string
   $("#nav-about").text(about);
@@ -332,5 +412,20 @@ $("#languageSelect").change(function() {
   $("#jvpPhilanthropyBio").text(jvpPhilanthropyBio);
   $("#weekCoordinatorBio").text(weekCoordinatorBio);
 
+  //101 Week
+  $("#weekMessage").text(weekMessage);
+  $("#weekTitle").text(weekTitle);
+  $("#weekSubtitle").text(weekSubtitle);
+  $("#weekIntro").text(weekIntro);
+  $("#week1").text(week1);
+  $("#week2").text(week2);
+  $("#week3").text(week3);
+  $("#weekSteps").text(weekSteps);
+  $("#weekStep1").text(weekStep1);
+  $("#register").text(register);
+  $("#weekStep2").text(weekStep2);
+  $("#weekWarning").text(weekWarning);
+  $("#week4").text(week4);
+  $("#week5").text(week5);
 
 }).change(); // This last bit, ".change()" is to invoke the change manually to ensure that the text is fetched from the translation database right away
