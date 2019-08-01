@@ -108,7 +108,7 @@ var translations = {
 
     "weekIntro": "This is where you can reserve your spot for 101 Week, the ESA’s orientation week for our new students.",
 
-    "week1": "101 Week is a non-profit event. In order to participate in 101 Week 2019, you must purchase a 101 Week kit. Each kit costs around $100 and includes admission to all the 101 Week events, from concerts to a scavenger hunt to club nights. (Note: Since we operate as a non-profit, we do need to make up the difference we pay in PayPal fees by charging $103.30** for online kits. We sell out every year, so we do recommend you register and buy online to guarantee yourself a spot).",
+    "week1": "101 Week is a non-profit event. In order to participate in 101 Week 2019, you must purchase a 101 Week kit. Each kit costs  $100 and includes admission to all the 101 Week events, from concerts to a scavenger hunt to club nights. (Note: Since we operate as a non-profit, we do need to make up the difference we pay in PayPal fees by charging $103.30** for online kits). We sell out every year, so we do recommend you register and buy online to guarantee yourself a spot.",
 
     "week2": "A complete schedule of the week’s events will be available in the coming weeks (stay tuned!) As always, if you have any questions about 101 Week, economics programs, or simply university life, please email us or message us on Facebook - we’d love to hear from you!",
 
@@ -238,7 +238,7 @@ var translations = {
 
     "weekIntro": "C’est ici que vous pouvez réserver votre place pour la Semaine 101, la semaine d’orientation pour les étudiant.e.s de premier cycle de l’AÉSÉ.",
 
-    "week1": "La Semaine 101 est une semaine à but non-lucratif. Pour participer à la Semaine 101 de 2019, vous devez acheter une trousse. Chaque trousse coût environ 100$ et inclut l’admission à tous les événements de la Semaine 101, de concerts à une course de trésor et de soirées dansantes. (Veuillez noter: pour équilibrer les frais de Square, le coût pour les trousses en ligne est 103.30$**. Nous vendons toutes les trousses chaque année. Nous conseillons de s'enregistrer et acheter en ligne pour vous garantir une trousse).",
+    "week1": "La Semaine 101 est une semaine à but non-lucratif. Pour participer à la Semaine 101 de 2019, vous devez acheter une trousse. Chaque trousse coût 100$ et inclut l’admission à tous les événements de la Semaine 101, de concerts à une course de trésor et de soirées dansantes. (Veuillez noter: pour équilibrer les frais de Paypal, le coût pour les trousses en ligne est 103.30$**.) Nous vendons toutes les trousses chaque année. Nous conseillons de s'enregistrer et acheter en ligne pour vous garantir une trousse.",
 
     "week2": "Un horaire complète des événements de la semaine va être disponible dans les prochaines semaines (restez à l’écoute!) Comme toujours, si vous avez des questions à propos la Semaine 101, les cours ou programmes d’économie, ou la vie universitaire, envoyez-nous un courriel ou un message Facebook - nous attendons vos questions!",
 
