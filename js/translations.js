@@ -230,7 +230,7 @@ var translations = {
 
     //101 Week
 
-    "weekMessage": "Voulez-vous joigner la semaine 101? Cliquez le lien au dessus!",
+    "weekMessage": "Voulez-vous joigner la semaine 101? Cliquez le lien ci-dessous!",
 
     "weekTitle": "Semaine 101",
 
