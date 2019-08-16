@@ -128,6 +128,46 @@ var translations = {
 
     "week5": "Have a fantastic rest of the summer, and see you soon!",
 
+    // Student Fees
+    "sfTitle": "About the Student Choice Initiatve and Student Fees",
+
+    "sfIntro": " Hey Econ Students! This year, when you go to pay your tuition fees, you will notice that there will be some changes to how you can continue to support and engage in campus life.",
+
+    "sfChanges": "1 - What are the changes?",
+
+    "sfChanges1": "The Student Choice Initiative creates provincially mandated guidelines for universities to follow in administering fees to students. This initiative mandates some fees administered by the University of Ottawa Students Union (UOSU) to be optional, and some to be mandatory.",
+
+    "sfChanges2": "These are fees that University of Ottawa students have voted into existence through referenda, recognizing the need for the services that student governments, like the Economics Students Association (ESA) and UOSU, provide. The existence of these fees have allowed campus life to thrive and meet the changing needs of uOttawa students.",
+
+    "sfAffected": "2 - What will be affected?",
+
+    "sfAffected1": "While the majority of fees administered by the UOSU will be deemed mandatory, two very important levies have been deemed optional",
+
+    "sfAffected2": "The first is the student life fee. The student life fee of $23 (for Full time students), covers Recognized Student Governments (like the ESA), Clubs, UOSU Social events, 101-week, the Racialized and Indigenous Student Experience Centre, the Multi-Faith Centre, the International House, and much more.",
+
+    "sfAffected3": "The other fee that has been deemed optional is the financial aid fee. This year, the entirety of the financial aid fee will be going towards our Student Refugee Program, which funds the first year of studies for six refugees at the University of Ottawa.",
+
+    "sfAffected4": "Without proper funding, these services will not be able to provide the same levels of programming and community that have supported students from various backgrounds for generations on this campus.",
+
+    "sfAssociation": "3 - How will your Student Association be affected?",
+
+    "sfAssociation1": "The ESA will also be impacted by this change. The vast majority of our funding comes from Student Life fees and we will not be able to operate our social, academic or professional development events without this funding. ",
+
+    "sfAssociation2": "The ESA has been representing students for more than 25 years, and over that time we have built many traditions that continue to this day. The annual New York City trip, Econ Week, 101 Week, and the Wine and Cheese are all made possible through the Student Life Fees. We want to continue to build on these traditions to make them the best they can be. Social events, Academic speaker series, Networking events and the annual traditions mentioned above are all part of what the ESA has to offer this year. ",
+
+    "sfAssociation3": "But we aren’t done yet. This year, we want to bring back the events you know while continuing to grow our association to better meet the needs of students and making the association more accessible and inclusive. We want to continue to represent students to the Department and Faculty, push for more student representation and better collaboration between the students and faculty, and to work to make the student experience at uOttawa the best it can be!",
+
+    "sfAssociation4": "The ESA will only be able to provide this programming if we, the students, continue to pay our student fees.",
+
+    "sfYou": "4 - Why does this affect you?",
+
+    "sfYou1": "How our student body reacts to these changes will greatly impact the campus services that shape student life at uOttawa. A loss to any of the services impacted by these changes would represent a great loss to be felt across our campus community at large.",
+
+    "sfYou2": "Continuing to support these services builds our campus community and ensures that you, and all students, are able to make the most of your university experience.",
+
+    "sfYou3": "With any questions regarding the changes, services impacted, or how you can mobilize to promote student services, please contact president@ecouo.ca",
+
+    "sfLast": "The Economics Student Association Executive",
   },
   "fr": {
       //Navigation
@@ -256,7 +296,49 @@ var translations = {
 
     "week4": "Si vous avez payé pour votre trousse en ligne, vous pouvez les récupérer le samedi 31 août ou le dimanche 1 septembre sur la pelouse de Tabaret (TBT). Si vous n’avez pas enregistré en ligne, vous pouvez venir sur campus les deux journées ci-dessus et acheter une trousse si nous en avons qui reste.",
 
-    "week5": "Nous espérons qui vous aient un bon été et à bientôt. "
+    "week5": "Nous espérons qui vous aient un bon été et à bientôt.",
+
+    //Student Fees
+    "sfTitle": "Au sujet du choix des étudiants et les frais des étudiants",
+
+    "sfIntro": "Salut AÉSÉ! Cette année, lorsque vous paierez vos frais de scolarité, vous remarquerez que des changements seront apportés à la manière dont vous pouvez continuer à soutenir et à vous engager dans la vie sur le campus.",
+
+    "sfChanges": "1 - Quels sont les changements?",
+
+    "sfChanges1": "L'Initiative sur le choix des étudiants (Student Choice Initiative) crée des lignes directrices provinciales que les universités doivent suivre pour l'administration des frais de scolarité des étudiants.  Cette initiative exige que certains frais administrés par le Syndicat étudiant de l’Université d’Ottawa (SÉUO) soient facultatifs et que certains soient obligatoires.",
+
+    "sfChanges2": "Ce sont des frais pour lesquels les étudiants de l'Université d'Ottawa ont votés par voie de référendum, reconnaissant ainsi le besoin des services qu'ils financent incluant l’Association des Étudiant.e.s en Sciences Économiques (AÉSÉ) et le SÉUO. L'existence de ces frais ont permis à la vie sur le campus de s'épanouir et de répondre aux besoins changeants des étudiants de l'Université d'Ottawa.",
+
+    "sfAffected": "2 - Qu'est-ce qui sera affecté?",
+
+    "sfAffected1": "Bien que la majorité des frais administrés par le SÉUO seront jugés obligatoires, deux prélèvements très importants ont été jugés facultatifs.",
+
+    "sfAffected2": "Le premier est la cotisation à la vie étudiante. Le coût de vie étudiante de 23 $ (pour les étudiants à plein temps) couvre les corps fédérés (comme l’AÉSÉ), les clubs, les événements sociaux du SÉUO, la semaine 101, le Centre de l'expérience des étudiants racialisés et autochtones, le Centre multiconfessionnel, la maison internationale et bien plus.",
+
+    "sfAffected3": "L'autre frais jugé comme étant facultatif est celui d'aide financière. Cette année, la totalité des frais d'aide financière ira à notre programme d'étudiants réfugiés. Ce programme finance la première année d'études de six réfugiés à l'Université d'Ottawa.",
+
+    "sfAffected4": "Sans un financement adéquat, ces services ne seront pas en mesure d'offrir les mêmes niveaux de programmes et de services communautaires que ceux offerts aux étudiants de diverses origines depuis des générations sur ce campus. ",
+
+    "sfAssociation": "3 - Comment votre association étudiante sera-t-elle affectée?",
+
+    "sfAssociation1": "L’ AÉSÉ sera également touchée par ce changement. La grande majorité de notre financement provient des frais de vie étudiante et nous ne serons pas en mesure d'organiser nos événements sociaux, académiques ou professionnels sans celui-ci.",
+
+    "sfAssociation2": "Ça fait plus de 25 années, depuis notre fondation, que nous avons pu représenter les étudiant.e.s en sciences économiques et créer des traditions qui existent à ce jour-ci. Le voyage à New York, la semaine Écono et 101, l’événement vin et fromage sont tous possibles à travers les frais de vie étudiante. Nous voulons continuer à célébrer ces traditions et les faire le meilleur possible. Les événements sociaux, les orateurs académiques, les événements de réseautage et toutes les traditions ci-dessus sont partis de ce qu’offre l’AÉSÉ cette année.",
+
+    "sfAssociation3": "Mais nous n’avons pas encore fini. Cette année, nous souhaitons ramener les événements que vous connaissez en continuant à développer notre association afin de mieux répondre aux besoins des étudiants tout en rendant l’AÉSÉ plus accessible et inclusive. Nous voulons continuer à représenter les étudiant.e.s au département et à la faculté, améliorer la représentation des étudiant.e.s et la collaboration entre eux et la faculté, et travailler à faire l'expérience des étudiants à l’uOttawa le meilleur possible.",
+
+    "sfAssociation4": "L’AÉSÉ ne sera pas en mesure de fournir cette programmation que si nous, les étudiants, continuons à payer nos frais d’étudiants.",
+
+    "sfYou": "4 - Pourquoi cela vous concerne",
+
+    "sfYou1": "La façon dont notre corps étudiant réagit à ces changements aura un impact considérable sur les services du campus qui façonnent la vie étudiante à l'Université d'Ottawa. Une perte pour l'un ou l'autre des services touchés par ces changements représenterait une grande perte pour l'ensemble de notre communauté universitaire.",
+
+    "sfYou2": "En continuant d'appuyer ces services, vous bâtissez notre communauté universitaire et faites en sorte que vous et tous les étudiants puissiez tirer le meilleur parti possible de votre expérience universitaire.",
+
+    "sfYou3": "Pour toute question concernant les changements, les services impactés ou la manière dont vous pouvez vous mobiliser pour promouvoir les services aux étudiants, veuillez communiquer avec president@ecouo.ca.",
+
+    "sfLast": "La direction de l'AÉSÉ",
+
 
   }
 }
@@ -346,6 +428,28 @@ $("#languageSelect").change(function() {
     var week4 = translations[langCode]["week4"];
     var week5 = translations[langCode]["week5"];
 
+    //Student fees
+    var sfTitle = translations[langCode]["sfTitle"];
+    var sfIntro = translations[langCode]["sfIntro"];
+    var sfChanges = translations[langCode]["sfChanges"];
+    var sfChanges1 = translations[langCode]["sfChanges1"];
+    var sfChanges2 = translations[langCode]["sfChanges2"];
+    var sfAffected = translations[langCode]["sfAffected"];
+    var sfAffected1 = translations[langCode]["sfAffected1"];
+    var sfAffected2 = translations[langCode]["sfAffected2"];
+    var sfAffected3 = translations[langCode]["sfAffected3"];
+    var sfAffected4 = translations[langCode]["sfAffected4"];
+    var sfAssociation = translations[langCode]["sfAssociation"];
+    var sfAssociation1 = translations[langCode]["sfAssociation1"];
+    var sfAssociation2 = translations[langCode]["sfAssociation2"];
+    var sfAssociation3 = translations[langCode]["sfAssociation3"];
+    var sfAssociation4 = translations[langCode]["sfAssociation4"];
+    var sfYou = translations[langCode]["sfYou"];
+    var sfYou1 = translations[langCode]["sfYou1"];
+    var sfYou2 = translations[langCode]["sfYou2"];
+    var sfYou3 = translations[langCode]["sfYou3"];
+    var sflast = translations[langCode]["sfLast"];
+
     //var weekWarningRed = weekWarning.fontcolor("red")
     
   // Set HTML text to the translated string
@@ -427,5 +531,28 @@ $("#languageSelect").change(function() {
   $("#weekWarning").text(weekWarning);
   $("#week4").text(week4);
   $("#week5").text(week5);
+
+  //Student fees
+  $("#sfTitle").text(sfTitle);
+  $("#sfIntro").text(sfIntro);
+  $("#sfChanges").text(sfChanges);
+  $("#sfChanges1").text(sfChanges1);
+  $("#sfChanges2").text(sfChanges2);
+  $("#sfAffected").text(sfAffected);
+  $("#sfAffected1").text(sfAffected1);
+  $("#sfAffected2").text(sfAffected2);
+  $("#sfAffected3").text(sfAffected3);
+  $("#sfAffected4").text(sfAffected4);
+  $("#sfAssociation").text(sfAssociation);
+  $("#sfAssociation1").text(sfAssociation1);
+  $("#sfAssociation2").text(sfAssociation2);
+  $("#sfAssociation3").text(sfAssociation3);
+  $("#sfAssociation4").text(sfAssociation4);
+  $("#sfYou").text(sfYou);
+  $("#sfYou1").text(sfYou1);
+  $("#sfYou2").text(sfYou2);
+  $("#sfYou3").text(sfYou3);
+  $("#sfLast").text(sflast)
+
 
 }).change(); // This last bit, ".change()" is to invoke the change manually to ensure that the text is fetched from the translation database right away
