@@ -128,6 +128,8 @@ var translations = {
 
     "week5": "Have a fantastic rest of the summer, and see you soon!",
 
+    "week6": "Online sales have now closed! However, you can still buy a kit on campus at our tent on Tabaret lawn (550 Cumberland) on Saturday and Sunday from 10am-4pm!",
+
     // Student Fees
     "sfTitle": "About the Student Choice Initiatve and Student Fees",
 
@@ -298,6 +300,8 @@ var translations = {
 
     "week5": "Nous espérons qui vous aient un bon été et à bientôt.",
 
+    "week6": "Les ventes en ligne s'est terminé! Ce pendant, vous pouvez acheter une trousse chez notre tente sur la pelouse Tabaret (550 Cumberland) le samedi et le dimache entre 10am-4pm!",
+
     //Student Fees
     "sfTitle": "Au sujet du choix des étudiants et les frais des étudiants",
 
@@ -427,6 +431,7 @@ $("#languageSelect").change(function() {
     var weekWarning = translations[langCode]["weekWarning"];
     var week4 = translations[langCode]["week4"];
     var week5 = translations[langCode]["week5"];
+    var week6 = translations[langCode]["week6"]
 
     //Student fees
     var sfTitle = translations[langCode]["sfTitle"];
@@ -531,6 +536,7 @@ $("#languageSelect").change(function() {
   $("#weekWarning").text(weekWarning);
   $("#week4").text(week4);
   $("#week5").text(week5);
+  $("#week6").text(week6);
 
   //Student fees
   $("#sfTitle").text(sfTitle);
