@@ -173,7 +173,7 @@ var translations = {
   },
   "fr": {
       //Navigation
-    "about": "à propos",
+    "about": "À propos",
     "services": "Services",
     "news": "Nouvelles",
     "team": "équipe",
@@ -198,7 +198,7 @@ var translations = {
     
     "execTeam": "L'équipe exécutif",
 
-    "teamDesc": "Voici vos représentants. Cliquez sur leur image pour lire à leur sujet.",
+    "teamDesc": "Voici vos représentants. Cliquez sur leur image pour lire à leur biographie.",
       
     "contactDesc": "Avez-vous des questions? Vous pouvez envoyer un courriel à communications@ecouo.ca pour des idées ou questions d'ordre général ou un courrier électronique à un membre de la direction spécifique, ou venez-nous voir en personne à FSS2040 pendant les heures de bureau. De plus, assurez-vous de nous suivre sur nos comptes de médias sociaux ! Les liens peuvent être trouvés en bas de cette page. Veuillez noter qu'il n'y aura pas d'heures de bureau pendant la saison des examens, pendant l'été, les vacances ou les vacances universitaires. Les heures de bureau sont sujettes à changement.",
     
