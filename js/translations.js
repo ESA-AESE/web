@@ -23,7 +23,11 @@ var translations = {
     "esaTraditionsDesc": "101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association.",
     
     "newsDesc": "Updates from the association are posted here. Click on the post to read the update.",
-    
+
+    "newsSSB": "Social Science Ball",
+
+    "newsDescSSB": "For more information, please click on the image!",
+
     "execTeam": "The Executive Team",
 
     "teamDesc": "Here are your representatives. Click on their image to read about them.",
@@ -92,7 +96,7 @@ var translations = {
 
     "dirExternalBio": "Hey there! My name is Lahn and I am the Director of External Affairs for the ESA. This year, I get the pleasure of working with different members of the team to coordinate outreach and sponsorship for different events that we run! Working with the team for the past 2 years has been a privilege, and this 2019/2020 year is no doubt going to be the best one yet. Fun fact, as a child, I used to think I could control traffic lights with my mind.",
 
-    "dirITBio": "Hello! My name is Ryan and I am the director of IT.",
+    "dirITBio": "Hello! My name is Sreenija and I am the director of IT.",
 
     "dirPromoBio": "Hi, my name is Nicole, and I am your Director of Promotions! I am in charge of all things promotional, and helping out with our website. I am in my fourth year of Joint Honours Economics and Political Science, and if you need help with anything school related, I am always down to chat and help with homework! Some more about me, I was the Golden Gloves featherweight boxing champion of lower mainland BC (a long time ago), and I’m terrified of fish!",
 
@@ -196,6 +200,10 @@ var translations = {
     
     "newsDesc": "Les mises à jour de l'association sont affichées ici. Cliquez sur le post pour lire la mise à jour.",
     
+    "newsSSB": "Bal Des Sciences Sociales",
+
+    "newsDescSSB": "Suivez le lien ci-dessous pour plus d'information!",
+
     "execTeam": "L'équipe exécutif",
 
     "teamDesc": "Voici vos représentants. Cliquez sur leur image pour lire à leur sujet.",
@@ -264,7 +272,7 @@ var translations = {
 
     "dirExternalBio": "Salut ! Je m’appelle Lahn et je suis la Directrice des Affaires Externes pour l’AÉSÉ. Cette année, j’ai le plaisir de travailler avec les membres différents de l’équipe pour coordonner les parrainages pour les événements différents qu’on dirige. De travailler avec l’équipe pour ces deux dernières années ont été un privilège et l’année de 2019 - 2020 va sans doute être le meilleur à ce jour. Une anecdote, comme enfant, je pensais que je pouvais contrôler les feux de circulation avec mon penser.",
 
-    "dirITBio": "Salut ! Je m'appelle Ryan et je suis le directeur de TIC!",
+    "dirITBio": "Salut ! Je m'appelle Sreenija et je suis le directeur de TIC!",
     
     "dirPromoBio": "Salut, je m’appelle Nicole et je suis la Directrice de la Promotion pour l’AÉSÉ ! Je suis responsable de toute chose promotionnelle et j’aide à gérer le site-web. Je suis dans ma quatrième année d’un spécialisé bidisciplinaire en science économique et science politique. Si vous avez besoin d’aide avec quoique ce soit en tant qu’école, je suis toujours prêt à aider avec les devoirs et parler ! D’autres informations à mon sujet est que j’étais le champion du Golden Gloves boxe poids plume des basses-terres de Colombie-Britannique (il y a longtemps) et terrifié des poissons !",
 
@@ -358,6 +366,7 @@ $("#languageSelect").change(function() {
     var about = translations[langCode]["about"];
     var services = translations[langCode]["services"];    
     var news = translations[langCode]["news"]; 
+    var newsSSB = translations[langCode]["newsSSB"]; 
     var team = translations[langCode]["team"]; 
     var contact = translations[langCode]["contact"]; 
     var aboutDesc = translations[langCode]["aboutDesc"];
@@ -370,6 +379,7 @@ $("#languageSelect").change(function() {
     var esaTraditions = translations[langCode]["esaTraditions"]; 
     var esaTraditionsDesc = translations[langCode]["esaTraditionsDesc"]; 
     var newsDesc = translations[langCode]["newsDesc"]; 
+    var newsDescSSB = translations[langCode]["newsDescSSB"]; 
     var teamDesc = translations[langCode]["teamDesc"]; 
     var contactDesc = translations[langCode]["contactDesc"]; 
     var officeHours =translations[langCode]["officeHours"];
@@ -475,6 +485,8 @@ $("#languageSelect").change(function() {
   $("#esaTraditionsDesc").text(esaTraditionsDesc);
   $("#news").text(news);
   $("#newsDesc").text(newsDesc);
+  $("#newsSSB").text(newsSSB);
+  $("#newsDescSSB").text(newsDescSSB);
   $("#teamDesc").text(teamDesc);
   $("#contact").text(contact);
   $("#contactDesc").text(contactDesc);
