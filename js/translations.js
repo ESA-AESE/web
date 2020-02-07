@@ -135,7 +135,7 @@ var translations = {
     "week6": "Online sales have now closed! However, you can still buy a kit on campus at our tent on Tabaret lawn (550 Cumberland) on Saturday and Sunday from 10am-4pm!",
 
     // Student Fees
-    "sfTitle": "About the Student Choice Initiatve and Student Fees",
+    "sfTitle": "About the Student Choice Initiative and Student Fees",
 
     "sfIntro": " Hey Econ Students! This year, when you go to pay your tuition fees, you will notice that there will be some changes to how you can continue to support and engage in campus life.",
 
