@@ -25,8 +25,14 @@ var translations = {
     "newsDesc": "Updates from the association are posted here. Click on the post to read the update.",
 
     "newsSSB": "Social Science Ball",
-
     "newsDescSSB": "For more information, please click on the image!",
+
+    "newsEcon": "Econ Week",
+    "newsDescEcon": "For more information, please click on the image!",
+
+    "newsBP": "Beer Pong Tournament",
+    "newsDescBP": "For more information, please click on the image!",
+
 
     "execTeam": "The Executive Team",
 
@@ -201,8 +207,14 @@ var translations = {
     "newsDesc": "Les mises à jour de l'association sont affichées ici. Cliquez sur le post pour lire la mise à jour.",
     
     "newsSSB": "Bal Des Sciences Sociales",
-
     "newsDescSSB": "Suivez le lien ci-dessous pour plus d'information!",
+
+    "newsEcon": "Semaine Econ",
+    "newsDescEcon": "Suivez le lien ci-dessous pour plus d'information!",
+
+    "newsBP": "Tournoi de Beer Pong",
+    "newsDescBP": "Suivez le lien ci-dessous pour plus d'information!",
+
 
     "execTeam": "L'équipe exécutif",
 
@@ -367,6 +379,8 @@ $("#languageSelect").change(function() {
     var services = translations[langCode]["services"];    
     var news = translations[langCode]["news"]; 
     var newsSSB = translations[langCode]["newsSSB"]; 
+    var newsEcon = translations[langCode]["newsEcon"]; 
+    var newsBP = translations[langCode]["newsBP"]; 
     var team = translations[langCode]["team"]; 
     var contact = translations[langCode]["contact"]; 
     var aboutDesc = translations[langCode]["aboutDesc"];
@@ -380,6 +394,9 @@ $("#languageSelect").change(function() {
     var esaTraditionsDesc = translations[langCode]["esaTraditionsDesc"]; 
     var newsDesc = translations[langCode]["newsDesc"]; 
     var newsDescSSB = translations[langCode]["newsDescSSB"]; 
+    var newsDescEcon = translations[langCode]["newsDescEcon"]; 
+    var newsDescBP = translations[langCode]["newsDescBP"]; 
+
     var teamDesc = translations[langCode]["teamDesc"]; 
     var contactDesc = translations[langCode]["contactDesc"]; 
     var officeHours =translations[langCode]["officeHours"];
@@ -487,6 +504,10 @@ $("#languageSelect").change(function() {
   $("#newsDesc").text(newsDesc);
   $("#newsSSB").text(newsSSB);
   $("#newsDescSSB").text(newsDescSSB);
+    $("#newsEcon").text(newsEcon);
+  $("#newsDescEcon").text(newsDescEcon);
+    $("#newsBP").text(newsBP);
+  $("#newsDescBP").text(newsDescBP);
   $("#teamDesc").text(teamDesc);
   $("#contact").text(contact);
   $("#contactDesc").text(contactDesc);
