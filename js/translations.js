@@ -30,6 +30,9 @@ var translations = {
     "newsEcon": "Econ Week",
     "newsDescEcon": "For more information, please click on the image!",
 
+    "newsEconEL": "ESA Elections",
+    "newsDescEconEL": "For more information, please click on the image!",
+
     "newsBP": "Beer Pong Tournament",
     "newsDescBP": "For more information, please click on the image!",
 
@@ -212,6 +215,9 @@ var translations = {
     "newsEcon": "Semaine Econ",
     "newsDescEcon": "Suivez le lien ci-dessous pour plus d'information!",
 
+    "newsEconEL": "Elections l’AÉSÉ",
+    "newsDescEconEL": "Suivez le lien ci-dessous pour plus d'information!",
+
     "newsBP": "Tournoi de Beer Pong",
     "newsDescBP": "Suivez le lien ci-dessous pour plus d'information!",
 
@@ -380,6 +386,7 @@ $("#languageSelect").change(function() {
     var news = translations[langCode]["news"]; 
     var newsSSB = translations[langCode]["newsSSB"]; 
     var newsEcon = translations[langCode]["newsEcon"]; 
+    var newsEconEL = translations[langCode]["newsEconEL"]; 
     var newsBP = translations[langCode]["newsBP"]; 
     var team = translations[langCode]["team"]; 
     var contact = translations[langCode]["contact"]; 
@@ -395,6 +402,7 @@ $("#languageSelect").change(function() {
     var newsDesc = translations[langCode]["newsDesc"]; 
     var newsDescSSB = translations[langCode]["newsDescSSB"]; 
     var newsDescEcon = translations[langCode]["newsDescEcon"]; 
+    var newsDescEconEL = translations[langCode]["newsDescEconEL"]; 
     var newsDescBP = translations[langCode]["newsDescBP"]; 
 
     var teamDesc = translations[langCode]["teamDesc"]; 
@@ -506,6 +514,8 @@ $("#languageSelect").change(function() {
   $("#newsDescSSB").text(newsDescSSB);
     $("#newsEcon").text(newsEcon);
   $("#newsDescEcon").text(newsDescEcon);
+      $("#newsEconEL").text(newsEconEL);
+  $("#newsDescEconEL").text(newsDescEconEL);
     $("#newsBP").text(newsBP);
   $("#newsDescBP").text(newsDescBP);
   $("#teamDesc").text(teamDesc);
